@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "525712737364",
+    "firebase_url": "https://iictcafebeta.firebaseio.com",
+    "project_id": "iictcafebeta",
+    "storage_bucket": "iictcafebeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525712737364:android:f91cb697b34f30f5",
+        "android_client_info": {
+          "package_name": "com.example.iictbeta2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525712737364-qojv32h27k1eme9mgmiupubhd4r555m2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iictbeta2",
+            "certificate_hash": "7efaf05a83534d8e07558a4747b5b100588a99d0"
+          }
+        },
+        {
+          "client_id": "525712737364-ml7ia8novs2a1h2djg1enc2u387nh33l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbNwpe9LPcVaSzC9bMx3ryRI6LbgFWvtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525712737364-ml7ia8novs2a1h2djg1enc2u387nh33l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

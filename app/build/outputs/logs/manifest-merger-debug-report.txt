@@ -1,0 +1,579 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9f2653dc8bdb1c27504761d01ac6e034\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\50db35e1f9589562944c8a97b3b97379\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2f66b8868827811a685d89edc95dfe1e\play-services-flags-16.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\68d233bba84bc42ca428b0d359d7eb3b\firebase-auth-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7a9aaa05b97d1b1989d3146a6b48e5d5\firebase-core-16.0.9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\80d57168940e0c6a2082e8a1ce8a4ba4\firebase-analytics-16.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\0eef5b3c257ef9789856e79be265b679\firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8f160b030d8d0bfdbbdb03c1cd3ec926\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9897821e0729aaf865678ade514b4f0b\play-services-measurement-sdk-16.5.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\85cb86c59fc3fff0de0748b2d34515c9\play-services-measurement-base-16.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\5ead32f8afa1123eb20e0fbc086d46e9\play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b77015497f5239abf0a638111b80f045\firebase-measurement-connector-17.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fba9de85dbf867e376dac21284574180\play-services-ads-identifier-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\ec51e8a6fbe0e16eb2e02662c4ee1cc2\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e52153b2e153699ec7bb2d1b6f1c1837\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7ae271cd52d451e2a3dd21f7112dc593\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2343a244e17f921778c2d4b4520bf9a4\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e7db1a9c5d17ceb8288b9f9e7914ae15\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f385f5e924cd343e160da34432cf9fcf\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1d96f63c4828df0b89e485e0c421d79c\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\db2dc0c742489453de6415442293e9ed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d2964a2b300acb732c887200bd4f1cae\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8b416d1f0acc3bf84ff0dd192360a70b\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\dfa007bc968d406bcc1878a33620fd82\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fbd320f8d71272e58f2f5cff97232c5d\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d501498298b3b9929e19d0e31b5c9eca\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8034f403884298a582c99a9257666704\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\4889696bf134fe9948a2044f7f1eb45a\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e253e6f8a72772ee84b33657c6dc028e\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3deda41178bc2a967544b3709b5d5d3e\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f728070935abe12b42485d5dbb260891\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6ec1d690da99ee8f4cddfda292cffccb\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\08dd606b451cf435067dc3b940ea7222\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b7853781d02fb13d60c7a4cfb7ea38df\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b5257e07085103a8429ab7c6fdd3533a\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6e182f531c34930261a376e4b11a5591\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7e918b593a97b064ae613302e9429af3\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1af7972579ada326fa6e7b94ad45a1a1\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\748354d1a890b1c3a26c2b22b2f6a069\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\229e04f21471cb127a623fb5a81e1971\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a84922fcbc56c03bd89f7a2bdbc5684\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d767ed53cc85a0da4337202916210a96\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\47f0dad2d625c8c90572677fc3d58217\firebase-database-collection-16.0.1\AndroidManifest.xml:2:1-7:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:6:5-32:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\68d233bba84bc42ca428b0d359d7eb3b\firebase-auth-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\68d233bba84bc42ca428b0d359d7eb3b\firebase-auth-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7a9aaa05b97d1b1989d3146a6b48e5d5\firebase-core-16.0.9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7a9aaa05b97d1b1989d3146a6b48e5d5\firebase-core-16.0.9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\80d57168940e0c6a2082e8a1ce8a4ba4\firebase-analytics-16.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\80d57168940e0c6a2082e8a1ce8a4ba4\firebase-analytics-16.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\0eef5b3c257ef9789856e79be265b679\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\0eef5b3c257ef9789856e79be265b679\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8f160b030d8d0bfdbbdb03c1cd3ec926\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8f160b030d8d0bfdbbdb03c1cd3ec926\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9897821e0729aaf865678ade514b4f0b\play-services-measurement-sdk-16.5.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9897821e0729aaf865678ade514b4f0b\play-services-measurement-sdk-16.5.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\85cb86c59fc3fff0de0748b2d34515c9\play-services-measurement-base-16.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\85cb86c59fc3fff0de0748b2d34515c9\play-services-measurement-base-16.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\5ead32f8afa1123eb20e0fbc086d46e9\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\5ead32f8afa1123eb20e0fbc086d46e9\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b77015497f5239abf0a638111b80f045\firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b77015497f5239abf0a638111b80f045\firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fba9de85dbf867e376dac21284574180\play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fba9de85dbf867e376dac21284574180\play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e52153b2e153699ec7bb2d1b6f1c1837\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e52153b2e153699ec7bb2d1b6f1c1837\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:45:5-53:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6ec1d690da99ee8f4cddfda292cffccb\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6ec1d690da99ee8f4cddfda292cffccb\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:9:9-39
+	android:roundIcon
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.iictbeta2.AfterLoginActivity.CartActivity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:13:9-78
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:13:19-66
+activity#com.example.iictbeta2.SettingsRechargeActivities.RechargeActivity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:14:9-81
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:14:19-78
+activity#com.example.iictbeta2.AccActivity.VerificationActivity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:15:9-70
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:15:19-67
+activity#com.example.iictbeta2.AccActivity.ForgotPassActivity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:16:9-68
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:16:19-65
+activity#com.example.iictbeta2.AfterLoginActivity.LoggedinHomeActivity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:17:9-77
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:17:19-74
+activity#com.example.iictbeta2.AccActivity.SignupActivity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:18:9-64
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:18:19-61
+activity#com.example.iictbeta2.AccActivity.LoginActivity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:19:9-63
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:19:19-60
+activity#com.example.iictbeta2.AccActivity.HomeActivity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:20:9-22:59
+	android:theme
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:21:13-53
+activity#com.example.iictbeta2.MainActivity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:23:9-31:20
+	android:theme
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9f2653dc8bdb1c27504761d01ac6e034\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9f2653dc8bdb1c27504761d01ac6e034\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\50db35e1f9589562944c8a97b3b97379\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\50db35e1f9589562944c8a97b3b97379\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2f66b8868827811a685d89edc95dfe1e\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2f66b8868827811a685d89edc95dfe1e\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\68d233bba84bc42ca428b0d359d7eb3b\firebase-auth-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\68d233bba84bc42ca428b0d359d7eb3b\firebase-auth-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7a9aaa05b97d1b1989d3146a6b48e5d5\firebase-core-16.0.9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7a9aaa05b97d1b1989d3146a6b48e5d5\firebase-core-16.0.9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\80d57168940e0c6a2082e8a1ce8a4ba4\firebase-analytics-16.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\80d57168940e0c6a2082e8a1ce8a4ba4\firebase-analytics-16.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\0eef5b3c257ef9789856e79be265b679\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\0eef5b3c257ef9789856e79be265b679\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8f160b030d8d0bfdbbdb03c1cd3ec926\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8f160b030d8d0bfdbbdb03c1cd3ec926\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9897821e0729aaf865678ade514b4f0b\play-services-measurement-sdk-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9897821e0729aaf865678ade514b4f0b\play-services-measurement-sdk-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\85cb86c59fc3fff0de0748b2d34515c9\play-services-measurement-base-16.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\85cb86c59fc3fff0de0748b2d34515c9\play-services-measurement-base-16.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\5ead32f8afa1123eb20e0fbc086d46e9\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\5ead32f8afa1123eb20e0fbc086d46e9\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b77015497f5239abf0a638111b80f045\firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b77015497f5239abf0a638111b80f045\firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fba9de85dbf867e376dac21284574180\play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fba9de85dbf867e376dac21284574180\play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\ec51e8a6fbe0e16eb2e02662c4ee1cc2\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\ec51e8a6fbe0e16eb2e02662c4ee1cc2\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e52153b2e153699ec7bb2d1b6f1c1837\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e52153b2e153699ec7bb2d1b6f1c1837\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7ae271cd52d451e2a3dd21f7112dc593\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7ae271cd52d451e2a3dd21f7112dc593\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2343a244e17f921778c2d4b4520bf9a4\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2343a244e17f921778c2d4b4520bf9a4\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e7db1a9c5d17ceb8288b9f9e7914ae15\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e7db1a9c5d17ceb8288b9f9e7914ae15\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f385f5e924cd343e160da34432cf9fcf\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f385f5e924cd343e160da34432cf9fcf\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1d96f63c4828df0b89e485e0c421d79c\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1d96f63c4828df0b89e485e0c421d79c\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\db2dc0c742489453de6415442293e9ed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\db2dc0c742489453de6415442293e9ed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d2964a2b300acb732c887200bd4f1cae\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d2964a2b300acb732c887200bd4f1cae\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8b416d1f0acc3bf84ff0dd192360a70b\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8b416d1f0acc3bf84ff0dd192360a70b\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\dfa007bc968d406bcc1878a33620fd82\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\dfa007bc968d406bcc1878a33620fd82\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fbd320f8d71272e58f2f5cff97232c5d\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fbd320f8d71272e58f2f5cff97232c5d\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d501498298b3b9929e19d0e31b5c9eca\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d501498298b3b9929e19d0e31b5c9eca\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8034f403884298a582c99a9257666704\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8034f403884298a582c99a9257666704\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\4889696bf134fe9948a2044f7f1eb45a\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\4889696bf134fe9948a2044f7f1eb45a\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e253e6f8a72772ee84b33657c6dc028e\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e253e6f8a72772ee84b33657c6dc028e\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3deda41178bc2a967544b3709b5d5d3e\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3deda41178bc2a967544b3709b5d5d3e\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f728070935abe12b42485d5dbb260891\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f728070935abe12b42485d5dbb260891\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6ec1d690da99ee8f4cddfda292cffccb\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6ec1d690da99ee8f4cddfda292cffccb\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\08dd606b451cf435067dc3b940ea7222\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\08dd606b451cf435067dc3b940ea7222\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b7853781d02fb13d60c7a4cfb7ea38df\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b7853781d02fb13d60c7a4cfb7ea38df\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b5257e07085103a8429ab7c6fdd3533a\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b5257e07085103a8429ab7c6fdd3533a\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6e182f531c34930261a376e4b11a5591\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6e182f531c34930261a376e4b11a5591\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7e918b593a97b064ae613302e9429af3\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7e918b593a97b064ae613302e9429af3\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1af7972579ada326fa6e7b94ad45a1a1\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1af7972579ada326fa6e7b94ad45a1a1\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\748354d1a890b1c3a26c2b22b2f6a069\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\748354d1a890b1c3a26c2b22b2f6a069\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\229e04f21471cb127a623fb5a81e1971\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\229e04f21471cb127a623fb5a81e1971\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a84922fcbc56c03bd89f7a2bdbc5684\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a84922fcbc56c03bd89f7a2bdbc5684\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d767ed53cc85a0da4337202916210a96\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d767ed53cc85a0da4337202916210a96\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\47f0dad2d625c8c90572677fc3d58217\firebase-database-collection-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\47f0dad2d625c8c90572677fc3d58217\firebase-database-collection-16.0.1\AndroidManifest.xml:5:5-44
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:26:22-64
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:31:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f6e00dbc95ad84ae1a17deaaab878218\play-services-measurement-impl-16.5.0\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\551547c9c6b1b1d8ddbdfc8219945d84\play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74

@@ -1,0 +1,303 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.iictbeta2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:26:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:26:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+18-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:21:5-65
+18-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:21:22-62
+19    <uses-feature
+19-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:24:5-26:36
+20        android:name="android.hardware.camera"
+20-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:25:9-47
+21        android:required="false" />
+21-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:26:9-33
+22    <uses-feature
+22-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
+23        android:name="android.hardware.camera.front"
+23-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
+24        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+24-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
+25    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:32:5-34:36
+27        android:name="android.hardware.camera.autofocus"
+27-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:33:9-57
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:34:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
+30        android:name="android.hardware.camera.flash"
+30-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
+33        android:name="android.hardware.screen.landscape"
+33-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
+36        android:name="android.hardware.wifi"
+36-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
+37        android:required="false" />
+37-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
+38
+39    <application
+39-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:6:5-32:19
+40        android:allowBackup="true"
+40-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:7:9-35
+41        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+41-->[com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+42        android:debuggable="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:8:9-43
+44        android:label="IICT Cafe-beta"
+44-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:9:9-39
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:10:9-54
+46        android:supportsRtl="true"
+46-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:11:9-35
+47        android:testOnly="true"
+48        android:theme="@style/AppTheme" >
+48-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:12:9-40
+49        <activity android:name="com.example.iictbeta2.AfterLoginActivity.CartActivity" />
+49-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:13:9-78
+49-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:13:19-66
+50        <activity android:name="com.example.iictbeta2.SettingsRechargeActivities.RechargeActivity" />
+50-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:14:9-81
+50-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:14:19-78
+51        <activity android:name="com.example.iictbeta2.AccActivity.VerificationActivity" />
+51-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:15:9-70
+51-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:15:19-67
+52        <activity android:name="com.example.iictbeta2.AccActivity.ForgotPassActivity" />
+52-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:16:9-68
+52-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:16:19-65
+53        <activity android:name="com.example.iictbeta2.AfterLoginActivity.LoggedinHomeActivity" />
+53-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:17:9-77
+53-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:17:19-74
+54        <activity android:name="com.example.iictbeta2.AccActivity.SignupActivity" />
+54-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:18:9-64
+54-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:18:19-61
+55        <activity android:name="com.example.iictbeta2.AccActivity.LoginActivity" />
+55-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:19:9-63
+55-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:19:19-60
+56        <activity
+56-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:20:9-22:59
+57            android:name="com.example.iictbeta2.AccActivity.HomeActivity"
+57-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:21:13-53
+58            android:theme="@style/AppTheme.NoActionBar" />
+58-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:22:13-56
+59        <activity
+59-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:23:9-31:20
+60            android:name="com.example.iictbeta2.MainActivity"
+60-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:24:13-41
+61            android:theme="@style/AppTheme.NoActionBar" >
+61-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:25:13-56
+62            <intent-filter>
+62-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:26:13-30:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:27:17-69
+63-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:27:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:29:17-77
+65-->F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:29:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+69            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+69-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+72            android:launchMode="singleTask"
+72-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+73            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+73-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+75
+76        <service
+76-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:33:9-39:19
+77            android:name="com.google.firebase.components.ComponentDiscoveryService"
+77-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:34:13-84
+78            android:exported="false" >
+78-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:35:13-37
+79            <meta-data
+79-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+80-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:30:13-32:85
+83                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+83-->[com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:31:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-database:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\48cf12ee74b99b6a38e555593d2374b2\firebase-database-17.0.0\AndroidManifest.xml:32:17-82
+85            <meta-data
+85-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+86                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+86-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\636792d8a647703c8b4c10e6dbcaca55\play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+89-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:33:17-96
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:34:17-82
+91        </service>
+92
+93        <receiver
+93-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:37:9-44:20
+94            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+94-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:38:13-78
+95            android:exported="true"
+95-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:39:13-36
+96            android:permission="com.google.android.c2dm.permission.SEND" >
+96-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:40:13-73
+97            <intent-filter>
+97-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:41:13-43:29
+98                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+98-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:42:17-81
+98-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:42:25-78
+99            </intent-filter>
+100        </receiver>
+101        <!--
+102             FirebaseInstanceIdService performs security checks at runtime,
+103             no need for explicit permissions despite exported="true"
+104        -->
+105        <service
+105-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:50:9-56:19
+106            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+106-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:51:13-77
+107            android:exported="true" >
+107-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:52:13-36
+108            <intent-filter android:priority="-500" >
+108-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:53:13-55:29
+108-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:53:28-51
+109                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+109-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:54:17-80
+109-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\27a31d9af5461d8d540ef459d067986b\firebase-iid-17.1.2\AndroidManifest.xml:54:25-77
+110            </intent-filter>
+111        </service>
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76edb33eb6505cb9a84dc29da2308a8c\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+117
+118        <provider
+118-->[com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+119            android:name="com.google.firebase.provider.FirebaseInitProvider"
+119-->[com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+120            android:authorities="com.example.iictbeta2.firebaseinitprovider"
+120-->[com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\611129604c38bf7bc0d1c25efebe9693\firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+123
+124        <receiver
+124-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+125            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+125-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+127            android:exported="false" >
+127-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+128        </receiver>
+129        <receiver
+129-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+130            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+130-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+131            android:enabled="true"
+131-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+132            android:exported="true"
+132-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+133            android:permission="android.permission.INSTALL_PACKAGES" >
+133-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+134            <intent-filter>
+134-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+135                <action android:name="com.android.vending.INSTALL_REFERRER" />
+135-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+135-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+136            </intent-filter>
+137        </receiver>
+138
+139        <service
+139-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+140            android:name="com.google.android.gms.measurement.AppMeasurementService"
+140-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+141            android:enabled="true"
+141-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+142            android:exported="false" />
+142-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+143        <service
+143-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+144            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+144-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+145            android:enabled="true"
+145-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+146            android:exported="false"
+146-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+147            android:permission="android.permission.BIND_JOB_SERVICE" />
+147-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\114513462e99525f33ed80b50fe7925c\play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+148
+149        <meta-data
+149-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
+150            android:name="com.google.android.gms.version"
+150-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
+151            android:value="@integer/google_play_services_version" />
+151-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\c6e694f23776abd2163de85075f6547e\play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
+152
+153        <activity
+153-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+154            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+154-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+155            android:clearTaskOnLaunch="true"
+155-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+156            android:screenOrientation="sensorLandscape"
+156-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+157            android:stateNotNeeded="true"
+157-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+158            android:theme="@style/zxing_CaptureTheme"
+158-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+159            android:windowSoftInputMode="stateAlwaysHidden" />
+159-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+160    </application>
+161
+162</manifest>
