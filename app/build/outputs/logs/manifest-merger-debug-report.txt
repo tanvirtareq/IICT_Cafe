@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fe72a296d67077725e4c004b49830069\navigation-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9f2653dc8bdb1c27504761d01ac6e034\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\50db35e1f9589562944c8a97b3b97379\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
@@ -31,12 +32,15 @@ MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\tanv
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\ec51e8a6fbe0e16eb2e02662c4ee1cc2\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e52153b2e153699ec7bb2d1b6f1c1837\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:17:1-55:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7ae271cd52d451e2a3dd21f7112dc593\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2343a244e17f921778c2d4b4520bf9a4\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\db2dc0c742489453de6415442293e9ed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\755dd01ea031d629d87a4c3c688a68a6\navigation-fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7ae271cd52d451e2a3dd21f7112dc593\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e7db1a9c5d17ceb8288b9f9e7914ae15\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f385f5e924cd343e160da34432cf9fcf\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76b25abbada96ff91ad92843e0adce8b\navigation-runtime-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1d96f63c4828df0b89e485e0c421d79c\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\db2dc0c742489453de6415442293e9ed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d2964a2b300acb732c887200bd4f1cae\transition-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8b416d1f0acc3bf84ff0dd192360a70b\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\dfa007bc968d406bcc1878a33620fd82\loader-28.0.0\AndroidManifest.xml:17:1-22:12
@@ -47,40 +51,41 @@ MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\tanvi\.gradl
 MERGED from [com.android.support:customview:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e253e6f8a72772ee84b33657c6dc028e\customview-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3deda41178bc2a967544b3709b5d5d3e\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f728070935abe12b42485d5dbb260891\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\512f7edd988033ac9328af43bfc316a7\navigation-common-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6ec1d690da99ee8f4cddfda292cffccb\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\08dd606b451cf435067dc3b940ea7222\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b7853781d02fb13d60c7a4cfb7ea38df\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b5257e07085103a8429ab7c6fdd3533a\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6e182f531c34930261a376e4b11a5591\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7e918b593a97b064ae613302e9429af3\print-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1af7972579ada326fa6e7b94ad45a1a1\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\748354d1a890b1c3a26c2b22b2f6a069\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\229e04f21471cb127a623fb5a81e1971\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a84922fcbc56c03bd89f7a2bdbc5684\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d767ed53cc85a0da4337202916210a96\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1af7972579ada326fa6e7b94ad45a1a1\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b5257e07085103a8429ab7c6fdd3533a\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6e182f531c34930261a376e4b11a5591\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7e918b593a97b064ae613302e9429af3\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\748354d1a890b1c3a26c2b22b2f6a069\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\47f0dad2d625c8c90572677fc3d58217\firebase-database-collection-16.0.1\AndroidManifest.xml:2:1-7:12
-INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:4:5-36
 		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
 		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-35:12
 		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:1-35:12
 		INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:6:5-32:19
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:6:5-33:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\98ffaa12c05c8c055b8f52bf6ee67bd3\firebase-auth-17.0.0\AndroidManifest.xml:23:5-40:19
@@ -127,6 +132,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ta
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e52153b2e153699ec7bb2d1b6f1c1837\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:45:5-53:19
 MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:45:5-53:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:22:5-28:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6ec1d690da99ee8f4cddfda292cffccb\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
@@ -145,60 +152,66 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tanvi\.gra
 		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
 		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.iictbeta2.Main2Activity
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:13:9-51
+	android:name
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:13:19-48
 activity#com.example.iictbeta2.AfterLoginActivity.CartActivity
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:13:9-78
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:14:9-69
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:13:19-66
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:14:19-66
 activity#com.example.iictbeta2.SettingsRechargeActivities.RechargeActivity
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:14:9-81
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:15:9-81
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:14:19-78
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:15:19-78
 activity#com.example.iictbeta2.AccActivity.VerificationActivity
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:15:9-70
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:16:9-70
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:15:19-67
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:16:19-67
 activity#com.example.iictbeta2.AccActivity.ForgotPassActivity
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:16:9-68
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:17:9-68
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:16:19-65
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:17:19-65
 activity#com.example.iictbeta2.AfterLoginActivity.LoggedinHomeActivity
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:17:9-77
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:18:9-77
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:17:19-74
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:18:19-74
 activity#com.example.iictbeta2.AccActivity.SignupActivity
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:18:9-64
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:19:9-64
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:18:19-61
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:19:19-61
 activity#com.example.iictbeta2.AccActivity.LoginActivity
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:19:9-63
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:20:9-63
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:19:19-60
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:20:19-60
 activity#com.example.iictbeta2.AccActivity.HomeActivity
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:20:9-22:59
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:21:9-23:59
 	android:theme
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:22:13-56
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:21:13-53
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:22:13-53
 activity#com.example.iictbeta2.MainActivity
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:23:9-31:20
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:24:9-32:20
 	android:theme
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:25:13-56
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml:30:27-74
 uses-sdk
 INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
 INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fe72a296d67077725e4c004b49830069\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\fe72a296d67077725e4c004b49830069\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a4ebb9dc07ff4f73d6ae478f5fc4f16\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\9f2653dc8bdb1c27504761d01ac6e034\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
@@ -253,18 +266,24 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ta
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e52153b2e153699ec7bb2d1b6f1c1837\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:19:5-43
 MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:19:5-43
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7ae271cd52d451e2a3dd21f7112dc593\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7ae271cd52d451e2a3dd21f7112dc593\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2343a244e17f921778c2d4b4520bf9a4\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2343a244e17f921778c2d4b4520bf9a4\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\db2dc0c742489453de6415442293e9ed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\db2dc0c742489453de6415442293e9ed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\755dd01ea031d629d87a4c3c688a68a6\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\755dd01ea031d629d87a4c3c688a68a6\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7ae271cd52d451e2a3dd21f7112dc593\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7ae271cd52d451e2a3dd21f7112dc593\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e7db1a9c5d17ceb8288b9f9e7914ae15\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\e7db1a9c5d17ceb8288b9f9e7914ae15\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f385f5e924cd343e160da34432cf9fcf\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f385f5e924cd343e160da34432cf9fcf\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76b25abbada96ff91ad92843e0adce8b\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\76b25abbada96ff91ad92843e0adce8b\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1d96f63c4828df0b89e485e0c421d79c\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1d96f63c4828df0b89e485e0c421d79c\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\db2dc0c742489453de6415442293e9ed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\db2dc0c742489453de6415442293e9ed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d2964a2b300acb732c887200bd4f1cae\transition-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d2964a2b300acb732c887200bd4f1cae\transition-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\8b416d1f0acc3bf84ff0dd192360a70b\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
@@ -285,6 +304,8 @@ MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\tanvi\.grad
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3deda41178bc2a967544b3709b5d5d3e\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f728070935abe12b42485d5dbb260891\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f728070935abe12b42485d5dbb260891\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\512f7edd988033ac9328af43bfc316a7\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\512f7edd988033ac9328af43bfc316a7\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\715fb26d9697ad9ad0fefd1ed668ea1f\support-compat-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6ec1d690da99ee8f4cddfda292cffccb\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
@@ -293,22 +314,22 @@ MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\tanvi\.gradle\ca
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\08dd606b451cf435067dc3b940ea7222\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b7853781d02fb13d60c7a4cfb7ea38df\runtime-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b7853781d02fb13d60c7a4cfb7ea38df\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b5257e07085103a8429ab7c6fdd3533a\documentfile-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b5257e07085103a8429ab7c6fdd3533a\documentfile-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6e182f531c34930261a376e4b11a5591\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6e182f531c34930261a376e4b11a5591\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7e918b593a97b064ae613302e9429af3\print-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7e918b593a97b064ae613302e9429af3\print-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1af7972579ada326fa6e7b94ad45a1a1\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1af7972579ada326fa6e7b94ad45a1a1\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\748354d1a890b1c3a26c2b22b2f6a069\interpolator-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\748354d1a890b1c3a26c2b22b2f6a069\interpolator-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\229e04f21471cb127a623fb5a81e1971\livedata-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\229e04f21471cb127a623fb5a81e1971\livedata-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a84922fcbc56c03bd89f7a2bdbc5684\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\3a84922fcbc56c03bd89f7a2bdbc5684\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d767ed53cc85a0da4337202916210a96\runtime-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\d767ed53cc85a0da4337202916210a96\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1af7972579ada326fa6e7b94ad45a1a1\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\1af7972579ada326fa6e7b94ad45a1a1\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b5257e07085103a8429ab7c6fdd3533a\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\b5257e07085103a8429ab7c6fdd3533a\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6e182f531c34930261a376e4b11a5591\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\6e182f531c34930261a376e4b11a5591\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7e918b593a97b064ae613302e9429af3\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\7e918b593a97b064ae613302e9429af3\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\748354d1a890b1c3a26c2b22b2f6a069\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\748354d1a890b1c3a26c2b22b2f6a069\interpolator-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\47f0dad2d625c8c90572677fc3d58217\firebase-database-collection-16.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\47f0dad2d625c8c90572677fc3d58217\firebase-database-collection-16.0.1\AndroidManifest.xml:5:5-44
 INJECTED from F:\project 250\IICT_Cafe-master\app\src\main\AndroidManifest.xml
@@ -577,3 +598,13 @@ ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle
 		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
 	android:name
 		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\f5deff891d6687ec92ac0c76bfd2de16\zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\10672e061463887b63ca287c3b3851ed\extensions-1.1.1\AndroidManifest.xml:24:13-83

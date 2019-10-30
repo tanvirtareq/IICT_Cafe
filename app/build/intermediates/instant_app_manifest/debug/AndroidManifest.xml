@@ -47,6 +47,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.iictbeta2.Main2Activity" />
         <activity android:name="com.example.iictbeta2.AfterLoginActivity.CartActivity" />
         <activity android:name="com.example.iictbeta2.SettingsRechargeActivities.RechargeActivity" />
         <activity android:name="com.example.iictbeta2.AccActivity.VerificationActivity" />
@@ -158,6 +159,12 @@
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.iictbeta2.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

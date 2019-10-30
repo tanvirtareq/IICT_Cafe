@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.iictbeta2.AfterLoginActivity.LoggedinHomeActivity;
+import com.example.iictbeta2.Main2Activity;
 import com.example.iictbeta2.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -146,10 +147,15 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "Successfully logged in", Toast.LENGTH_LONG).show();
 
 
-                    Intent loggedInIntent = new Intent(LoginActivity.this, LoggedinHomeActivity.class);
-                    loggedInIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                    startActivity(loggedInIntent);
+//                    Intent loggedInIntent = new Intent(LoginActivity.this, LoggedinHomeActivity.class);
+//                    loggedInIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//                    startActivity(loggedInIntent);
+//                    finish();
+
+                    Intent homeActivityIntent=new Intent(LoginActivity.this, Main2Activity.class);
+                    startActivity(homeActivityIntent);
                     finish();
+
 
                 } else {
                     progressDialog.dismiss();

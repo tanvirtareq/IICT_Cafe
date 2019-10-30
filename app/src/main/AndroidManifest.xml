@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AfterLoginActivity.CartActivity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".AfterLoginActivity.CartActivity" />
         <activity android:name=".SettingsRechargeActivities.RechargeActivity" />
         <activity android:name=".AccActivity.VerificationActivity" />
         <activity android:name=".AccActivity.ForgotPassActivity" />
