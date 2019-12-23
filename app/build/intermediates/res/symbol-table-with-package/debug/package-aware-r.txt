@@ -1101,6 +1101,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
+drawable ic_shopping_cart_black_24dp
 drawable iictlogo
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1167,6 +1168,7 @@ id bottom
 id bottom_navigation
 id buttonPanel
 id cancel_action
+id cart
 id cart_toolbar
 id center
 id centerCrop
@@ -1507,6 +1509,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fragment_balance
+layout fragment_cart
 layout fragment_home
 layout fragment_message
 layout fragment_pending_item

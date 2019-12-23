@@ -15,5 +15,10 @@
         android:icon="@drawable/ic_layers_black_24dp"
         android:title="Pending Orders"/>
 
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="Cart"/>
+
 
 </menu>

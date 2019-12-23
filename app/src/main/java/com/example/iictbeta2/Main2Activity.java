@@ -115,6 +115,10 @@ public class Main2Activity extends AppCompatActivity implements NavigationView.O
                             selectedFragment=new PendingItemFragment();
                             break;
 
+                        case R.id.cart:
+                            selectedFragment=new CartFragment();
+                            break;
+
 
                     }
 
