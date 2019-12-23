@@ -1,5 +1,6 @@
 package com.example.iictbeta2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -11,6 +12,10 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.example.iictbeta2.AccActivity.HomeActivity;
+import com.example.iictbeta2.SettingsRechargeActivities.RechargeActivity;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Main2Activity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -26,22 +31,25 @@ public class Main2Activity extends AppCompatActivity implements NavigationView.O
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("IICT Cafe");
 
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
+        BottomNavigationView bottomNavigationView=findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener);
+
+
+
         NavigationView drawernavigationview=findViewById(R.id.nav_view);
         drawernavigationview.setNavigationItemSelectedListener(this);
 
 
         drawerLayout=findViewById(R.id.drawerLayout);
 
-        BottomNavigationView bottomNavigationView=findViewById(R.id.bottom_navigation);
 
-        bottomNavigationView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar,
+                R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
-//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar,
-//                R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-//        drawerLayout.addDrawerListener(toggle);
-//        toggle.syncState();
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
 
 //        if (savedInstanceState == null) {
 //            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
@@ -63,9 +71,18 @@ public class Main2Activity extends AppCompatActivity implements NavigationView.O
                         new BalanceFragment()).commit();
                 break;
 
+            case R.id.recharge:
+                Intent gorecharge = new Intent(this, RechargeActivity.class);
+                startActivity(gorecharge);
+                break;
+
+            case R.id.logout:
+                sendToStart();
+                break;
+
         }
 
-//        drawerLayout.closeDrawer(GravityCompat.START);
+        drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
 
@@ -105,4 +122,11 @@ public class Main2Activity extends AppCompatActivity implements NavigationView.O
                     return  true;
                 }
             };
+
+    void sendToStart(){
+        FirebaseAuth.getInstance().signOut();
+        Intent gohome = new Intent(this, HomeActivity.class);
+        startActivity(gohome);
+        finish();
+    }
 }

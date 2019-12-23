@@ -11,6 +11,16 @@
             android:icon="@drawable/ic_account_balance_wallet_black_24dp"
             android:title="balance"/>
 
+        <item
+            android:id="@+id/recharge"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Recharge"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Log Out"/>
+
 
     </group>
 

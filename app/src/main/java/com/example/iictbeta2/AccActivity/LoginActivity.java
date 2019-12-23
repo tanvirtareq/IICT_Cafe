@@ -153,6 +153,7 @@ public class LoginActivity extends AppCompatActivity {
 //                    finish();
 
                     Intent homeActivityIntent=new Intent(LoginActivity.this, Main2Activity.class);
+                    homeActivityIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(homeActivityIntent);
                     finish();
 

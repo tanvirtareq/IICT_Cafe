@@ -20,14 +20,27 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent i = new Intent(MainActivity.this, LoggedinHomeActivity.class);
-                startActivity(i);
-                finish();
-            }
-        }, 1300);
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        if(currentUser != null){
+            Intent main2Activity_intent = new Intent(MainActivity.this, Main2Activity.class);
+            startActivity(main2Activity_intent);
+            finish();
+        }
+        else
+        {
+            Intent home_intent=new Intent(MainActivity.this, HomeActivity.class);
+            startActivity(home_intent);
+            finish();
+        }
+
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                Intent i = new Intent(MainActivity.this, LoggedinHomeActivity.class);
+//                startActivity(i);
+//                finish();
+//            }
+//        }, 1300);
     }
 
     /*@Override
