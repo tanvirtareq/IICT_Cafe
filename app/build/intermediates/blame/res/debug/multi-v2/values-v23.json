@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\project 250\\IICT_Cafe-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "F:\\tt\\IICT_Cafe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\50db35e1f9589562944c8a97b3b97379\\cardview-v7-28.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\eea1b4f5d94627bb57cbdce364df68d7\\cardview-v7-28.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\9f2653dc8bdb1c27504761d01ac6e034\\appcompat-v7-28.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\15035ed350d43f07aebe9cead70486b2\\appcompat-v7-28.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

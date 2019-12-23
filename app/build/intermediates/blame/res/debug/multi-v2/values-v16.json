@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\project 250\\IICT_Cafe-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "F:\\tt\\IICT_Cafe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\715fb26d9697ad9ad0fefd1ed668ea1f\\support-compat-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\e80327cc5b6d14150f74585b4aa35cdb\\support-compat-28.0.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\9f2653dc8bdb1c27504761d01ac6e034\\appcompat-v7-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\15035ed350d43f07aebe9cead70486b2\\appcompat-v7-28.0.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

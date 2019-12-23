@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\project 250\\IICT_Cafe-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+            "outputFile": "F:\\tt\\IICT_Cafe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\76edb33eb6505cb9a84dc29da2308a8c\\play-services-base-16.0.1\\res\\values-pa\\values.xml",
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\e3099342a38a00991a155aa8c41ed241\\play-services-base-16.0.1\\res\\values-pa\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,41 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\fe72a296d67077725e4c004b49830069\\navigation-ui-1.0.0\\res\\values-pa\\values-pa.xml",
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\4be0e0c5cf50c3bfcc486c079362134b\\play-services-basement-16.2.0\\res\\values-pa\\values.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,170",
-                        "endColumns": "114,117",
-                        "endOffsets": "165,283"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "209",
+                        "endOffsets": "456"
                     },
                     "to": {
-                        "startLines": "47,48",
-                        "startColumns": "4,4",
-                        "startOffsets": "5515,5630",
-                        "endColumns": "114,117",
-                        "endOffsets": "5625,5743"
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3929",
+                        "endColumns": "209",
+                        "endOffsets": "4134"
                     }
                 },
                 {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\715fb26d9697ad9ad0fefd1ed668ea1f\\support-compat-28.0.0\\res\\values-pa\\values-pa.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "50",
-                        "startColumns": "4",
-                        "startOffsets": "5828",
-                        "endColumns": "100",
-                        "endOffsets": "5924"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\9f2653dc8bdb1c27504761d01ac6e034\\appcompat-v7-28.0.0\\res\\values-pa\\values-pa.xml",
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\15035ed350d43f07aebe9cead70486b2\\appcompat-v7-28.0.0\\res\\values-pa\\values-pa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,20 +55,37 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\c6e694f23776abd2163de85075f6547e\\play-services-basement-16.2.0\\res\\values-pa\\values.xml",
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\de89ba7a91bd6a53802eb85eca48dbdb\\navigation-ui-1.0.0\\res\\values-pa\\values-pa.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "209",
-                        "endOffsets": "456"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,170",
+                        "endColumns": "114,117",
+                        "endOffsets": "165,283"
                     },
                     "to": {
-                        "startLines": "37",
+                        "startLines": "47,48",
+                        "startColumns": "4,4",
+                        "startOffsets": "5515,5630",
+                        "endColumns": "114,117",
+                        "endOffsets": "5625,5743"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\e80327cc5b6d14150f74585b4aa35cdb\\support-compat-28.0.0\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "3929",
-                        "endColumns": "209",
-                        "endOffsets": "4134"
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "5828",
+                        "endColumns": "100",
+                        "endOffsets": "5924"
                     }
                 }
             ]

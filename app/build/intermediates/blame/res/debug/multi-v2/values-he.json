@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\project 250\\IICT_Cafe-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "F:\\tt\\IICT_Cafe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tanvi\\.gradle\\caches\\transforms-2\\files-2.1\\f5deff891d6687ec92ac0c76bfd2de16\\zxing-android-embedded-3.2.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\3cc60b768f1c51b422ee016f60498b06\\zxing-android-embedded-3.2.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
